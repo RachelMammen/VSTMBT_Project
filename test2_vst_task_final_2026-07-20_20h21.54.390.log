@@ -1,0 +1,312 @@
+20.8916 	INFO 	Loaded monitor calibration from ['2026_07_14 23:30']
+20.9156 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+23.4018 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+23.4018 	INFO 	OpenGL version supported by driver is 4..
+25.3077 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002878E99DC00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002878E99DBA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002878EA4F6D0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.3078 	EXP 	window1: backgroundImage = ''
+25.3078 	EXP 	window1: backgroundFit = 'none'
+25.7214 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+25.7214 	EXP 	window1: recordFrameIntervals = False
+26.0309 	EXP 	window1: recordFrameIntervals = True
+27.6977 	EXP 	window1: recordFrameIntervals = False
+27.6978 	EXP 	Screen (0) actual frame rate measured at 59.88Hz
+27.8462 	INFO 	keyboard.Keyboard is using ptb backend.
+27.8463 	EXP 	vst_task_final: status = STARTED
+28.1359 	EXP 	Created inst_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='inst_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+28.1402 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+28.2212 	EXP 	Created shape_L = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='shape_L', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+28.2260 	EXP 	Created shape_C = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='shape_C', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+28.2309 	EXP 	Created shape_R = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='shape_R', opacity=1, ori=0.0, pos=array([0.4, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+28.2347 	EXP 	Created test_shape_L = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='test_shape_L', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+28.2380 	EXP 	Created test_shape_C = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='test_shape_C', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+28.2414 	EXP 	Created test_shape_R = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='test_shape_R', opacity=1, ori=0.0, pos=array([0.4, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+0.0304 	INFO 	Keyboard events cleared
+0.0303 	EXP 	inst_text: autoDraw = True
+6.9575 	EXP 	Device response: <KeyPress from None: t=6.936638200015295, value=space, duration=None>
+6.9624 	EXP 	Imported trials.xlsx as conditions, 4 conditions, 8 params
+6.9627 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'shape1': 'wave.png', 'shape2': 'cross.png', 'shape3': 'star.png', 'color1': 'green', 'color2': 'yellow', 'color3': 'blue', 'condition': 'different', 'corrAns': 'd', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+6.9840 	DATA 	Keypress: space
+6.9857 	EXP 	inst_text: autoDraw = False
+6.9857 	EXP 	shape_L: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+6.9857 	EXP 	shape_L: image = 'wave.png'
+6.9857 	EXP 	shape_C: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+6.9857 	EXP 	shape_C: image = 'cross.png'
+6.9857 	EXP 	shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+6.9857 	EXP 	shape_R: image = 'star.png'
+6.9857 	EXP 	fixation: autoDraw = True
+7.0220 	EXP 	Device response: <KeyPress from None: t=6.936638200015295, value=space, duration=0.07573099998990074>
+7.4719 	EXP 	shape_L: autoDraw = True
+7.4719 	EXP 	shape_C: autoDraw = True
+7.4719 	EXP 	shape_R: autoDraw = True
+7.4888 	EXP 	fixation: autoDraw = False
+9.4768 	EXP 	shape_L: autoDraw = False
+9.4768 	EXP 	shape_C: autoDraw = False
+9.4768 	EXP 	shape_R: autoDraw = False
+9.4768 	EXP 	fixation: autoDraw = False
+9.4768 	EXP 	shape_L: autoDraw = False
+9.4768 	EXP 	shape_C: autoDraw = False
+9.4768 	EXP 	shape_R: autoDraw = False
+9.4768 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+9.4768 	EXP 	test_shape_L: image = 'wave.png'
+9.4768 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+9.4768 	EXP 	test_shape_C: image = 'cross.png'
+9.4768 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+9.4768 	EXP 	test_shape_R: image = 'star.png'
+10.4720 	INFO 	Keyboard events cleared
+10.4719 	EXP 	test_shape_L: autoDraw = True
+10.4719 	EXP 	test_shape_C: autoDraw = True
+10.4719 	EXP 	test_shape_R: autoDraw = True
+13.1056 	EXP 	Device response: <KeyPress from None: t=13.10220510000363, value=d, duration=None>
+13.1060 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'shape1': 'star.png', 'shape2': 'wave.png', 'shape3': 'cross.png', 'color1': 'blue', 'color2': 'yellow', 'color3': 'red', 'condition': 'same', 'corrAns': 's', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+13.1474 	DATA 	Keypress: d
+13.1507 	EXP 	test_shape_L: autoDraw = False
+13.1507 	EXP 	test_shape_C: autoDraw = False
+13.1507 	EXP 	test_shape_R: autoDraw = False
+13.1507 	EXP 	shape_L: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+13.1507 	EXP 	shape_L: image = 'star.png'
+13.1507 	EXP 	shape_C: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+13.1507 	EXP 	shape_C: image = 'wave.png'
+13.1507 	EXP 	shape_R: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+13.1507 	EXP 	shape_R: image = 'cross.png'
+13.1507 	EXP 	fixation: autoDraw = True
+13.2224 	EXP 	Device response: <KeyPress from None: t=13.10220510000363, value=d, duration=0.11478409997653216>
+13.6049 	EXP 	shape_L: autoDraw = True
+13.6049 	EXP 	shape_C: autoDraw = True
+13.6049 	EXP 	shape_R: autoDraw = True
+13.6553 	EXP 	fixation: autoDraw = False
+15.6054 	EXP 	shape_L: autoDraw = False
+15.6054 	EXP 	shape_C: autoDraw = False
+15.6054 	EXP 	shape_R: autoDraw = False
+15.6054 	EXP 	fixation: autoDraw = False
+15.6054 	EXP 	shape_L: autoDraw = False
+15.6054 	EXP 	shape_C: autoDraw = False
+15.6054 	EXP 	shape_R: autoDraw = False
+15.6054 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+15.6054 	EXP 	test_shape_L: image = 'star.png'
+15.6054 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+15.6054 	EXP 	test_shape_C: image = 'wave.png'
+15.6054 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+15.6054 	EXP 	test_shape_R: image = 'cross.png'
+16.6219 	INFO 	Keyboard events cleared
+16.6218 	EXP 	test_shape_L: autoDraw = True
+16.6218 	EXP 	test_shape_C: autoDraw = True
+16.6218 	EXP 	test_shape_R: autoDraw = True
+20.2555 	EXP 	Device response: <KeyPress from None: t=20.254564000002574, value=s, duration=None>
+20.2559 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'shape1': 'cross.png', 'shape2': 'star.png', 'shape3': 'wave.png', 'color1': 'red', 'color2': 'green', 'color3': 'blue', 'condition': 'same', 'corrAns': 's', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+20.2662 	DATA 	Keypress: s
+20.2720 	EXP 	test_shape_L: autoDraw = False
+20.2720 	EXP 	test_shape_C: autoDraw = False
+20.2720 	EXP 	test_shape_R: autoDraw = False
+20.2720 	EXP 	shape_L: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+20.2720 	EXP 	shape_L: image = 'cross.png'
+20.2720 	EXP 	shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+20.2720 	EXP 	shape_C: image = 'star.png'
+20.2720 	EXP 	shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+20.2720 	EXP 	shape_R: image = 'wave.png'
+20.2720 	EXP 	fixation: autoDraw = True
+20.3885 	EXP 	Device response: <KeyPress from None: t=20.254564000002574, value=s, duration=0.1255686999647878>
+20.7549 	EXP 	shape_L: autoDraw = True
+20.7549 	EXP 	shape_C: autoDraw = True
+20.7549 	EXP 	shape_R: autoDraw = True
+20.7715 	EXP 	fixation: autoDraw = False
+22.7547 	EXP 	shape_L: autoDraw = False
+22.7547 	EXP 	shape_C: autoDraw = False
+22.7547 	EXP 	shape_R: autoDraw = False
+22.7547 	EXP 	fixation: autoDraw = False
+22.7547 	EXP 	shape_L: autoDraw = False
+22.7547 	EXP 	shape_C: autoDraw = False
+22.7547 	EXP 	shape_R: autoDraw = False
+22.7547 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+22.7547 	EXP 	test_shape_L: image = 'cross.png'
+22.7547 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+22.7547 	EXP 	test_shape_C: image = 'star.png'
+22.7547 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+22.7547 	EXP 	test_shape_R: image = 'wave.png'
+23.7712 	INFO 	Keyboard events cleared
+23.7711 	EXP 	test_shape_L: autoDraw = True
+23.7711 	EXP 	test_shape_C: autoDraw = True
+23.7711 	EXP 	test_shape_R: autoDraw = True
+25.8549 	EXP 	Device response: <KeyPress from None: t=25.847668599977624, value=s, duration=None>
+25.8553 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'shape1': 'cross.png', 'shape2': 'star.png', 'shape3': 'wave.png', 'color1': 'red', 'color2': 'green', 'color3': 'blue', 'condition': 'different', 'corrAns': 'd', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+25.8670 	DATA 	Keypress: s
+25.8715 	EXP 	test_shape_L: autoDraw = False
+25.8715 	EXP 	test_shape_C: autoDraw = False
+25.8715 	EXP 	test_shape_R: autoDraw = False
+25.8715 	EXP 	shape_L: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+25.8715 	EXP 	shape_L: image = 'cross.png'
+25.8715 	EXP 	shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+25.8715 	EXP 	shape_C: image = 'star.png'
+25.8715 	EXP 	shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+25.8715 	EXP 	shape_R: image = 'wave.png'
+25.8715 	EXP 	fixation: autoDraw = True
+25.9715 	EXP 	Device response: <KeyPress from None: t=25.847668599977624, value=s, duration=0.11037680000299588>
+26.3545 	EXP 	shape_L: autoDraw = True
+26.3545 	EXP 	shape_C: autoDraw = True
+26.3545 	EXP 	shape_R: autoDraw = True
+26.3713 	EXP 	fixation: autoDraw = False
+28.3549 	EXP 	shape_L: autoDraw = False
+28.3549 	EXP 	shape_C: autoDraw = False
+28.3549 	EXP 	shape_R: autoDraw = False
+28.3549 	EXP 	fixation: autoDraw = False
+28.3549 	EXP 	shape_L: autoDraw = False
+28.3549 	EXP 	shape_C: autoDraw = False
+28.3549 	EXP 	shape_R: autoDraw = False
+28.3549 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+28.3549 	EXP 	test_shape_L: image = 'cross.png'
+28.3549 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+28.3549 	EXP 	test_shape_C: image = 'star.png'
+28.3549 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+28.3549 	EXP 	test_shape_R: image = 'wave.png'
+29.3712 	INFO 	Keyboard events cleared
+29.3711 	EXP 	test_shape_L: autoDraw = True
+29.3711 	EXP 	test_shape_C: autoDraw = True
+29.3711 	EXP 	test_shape_R: autoDraw = True
+33.4878 	EXP 	Device response: <KeyPress from None: t=33.48189579998143, value=d, duration=None>
+33.4882 	EXP 	New trial (rep=1, index=0): <Trial 4 (0 in rep 1) data={'shape1': 'cross.png', 'shape2': 'star.png', 'shape3': 'wave.png', 'color1': 'red', 'color2': 'green', 'color3': 'blue', 'condition': 'same', 'corrAns': 's', 'thisN': 4, 'thisTrialN': 0, 'thisRepN': 1}>
+33.4973 	DATA 	Keypress: d
+33.5045 	EXP 	test_shape_L: autoDraw = False
+33.5045 	EXP 	test_shape_C: autoDraw = False
+33.5045 	EXP 	test_shape_R: autoDraw = False
+33.5045 	EXP 	shape_L: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+33.5045 	EXP 	shape_L: image = 'cross.png'
+33.5045 	EXP 	shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+33.5045 	EXP 	shape_C: image = 'star.png'
+33.5045 	EXP 	shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+33.5045 	EXP 	shape_R: image = 'wave.png'
+33.5045 	EXP 	fixation: autoDraw = True
+33.6210 	EXP 	Device response: <KeyPress from None: t=33.48189579998143, value=d, duration=0.1351890999940224>
+33.9872 	EXP 	shape_L: autoDraw = True
+33.9872 	EXP 	shape_C: autoDraw = True
+33.9872 	EXP 	shape_R: autoDraw = True
+34.0039 	EXP 	fixation: autoDraw = False
+35.9877 	EXP 	shape_L: autoDraw = False
+35.9877 	EXP 	shape_C: autoDraw = False
+35.9877 	EXP 	shape_R: autoDraw = False
+35.9877 	EXP 	fixation: autoDraw = False
+35.9877 	EXP 	shape_L: autoDraw = False
+35.9877 	EXP 	shape_C: autoDraw = False
+35.9877 	EXP 	shape_R: autoDraw = False
+35.9877 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+35.9877 	EXP 	test_shape_L: image = 'cross.png'
+35.9877 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+35.9877 	EXP 	test_shape_C: image = 'star.png'
+35.9877 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+35.9877 	EXP 	test_shape_R: image = 'wave.png'
+36.9874 	INFO 	Keyboard events cleared
+36.9872 	EXP 	test_shape_L: autoDraw = True
+36.9872 	EXP 	test_shape_C: autoDraw = True
+36.9872 	EXP 	test_shape_R: autoDraw = True
+39.1207 	EXP 	Device response: <KeyPress from None: t=39.11153280001599, value=s, duration=None>
+39.1211 	EXP 	New trial (rep=1, index=1): <Trial 5 (1 in rep 1) data={'shape1': 'wave.png', 'shape2': 'cross.png', 'shape3': 'star.png', 'color1': 'green', 'color2': 'yellow', 'color3': 'blue', 'condition': 'different', 'corrAns': 'd', 'thisN': 5, 'thisTrialN': 1, 'thisRepN': 1}>
+39.1306 	DATA 	Keypress: s
+39.1376 	EXP 	test_shape_L: autoDraw = False
+39.1376 	EXP 	test_shape_C: autoDraw = False
+39.1376 	EXP 	test_shape_R: autoDraw = False
+39.1376 	EXP 	shape_L: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+39.1376 	EXP 	shape_L: image = 'wave.png'
+39.1376 	EXP 	shape_C: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+39.1376 	EXP 	shape_C: image = 'cross.png'
+39.1376 	EXP 	shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+39.1376 	EXP 	shape_R: image = 'star.png'
+39.1376 	EXP 	fixation: autoDraw = True
+39.2708 	EXP 	Device response: <KeyPress from None: t=39.11153280001599, value=s, duration=0.14354109996929765>
+39.6204 	EXP 	shape_L: autoDraw = True
+39.6204 	EXP 	shape_C: autoDraw = True
+39.6204 	EXP 	shape_R: autoDraw = True
+39.6370 	EXP 	fixation: autoDraw = False
+41.6208 	EXP 	shape_L: autoDraw = False
+41.6208 	EXP 	shape_C: autoDraw = False
+41.6208 	EXP 	shape_R: autoDraw = False
+41.6208 	EXP 	fixation: autoDraw = False
+41.6208 	EXP 	shape_L: autoDraw = False
+41.6208 	EXP 	shape_C: autoDraw = False
+41.6208 	EXP 	shape_R: autoDraw = False
+41.6208 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+41.6208 	EXP 	test_shape_L: image = 'wave.png'
+41.6208 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+41.6208 	EXP 	test_shape_C: image = 'cross.png'
+41.6208 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+41.6208 	EXP 	test_shape_R: image = 'star.png'
+42.6369 	INFO 	Keyboard events cleared
+42.6368 	EXP 	test_shape_L: autoDraw = True
+42.6368 	EXP 	test_shape_C: autoDraw = True
+42.6368 	EXP 	test_shape_R: autoDraw = True
+46.0034 	EXP 	Device response: <KeyPress from None: t=46.00176040001679, value=d, duration=None>
+46.0038 	EXP 	New trial (rep=1, index=2): <Trial 6 (2 in rep 1) data={'shape1': 'star.png', 'shape2': 'wave.png', 'shape3': 'cross.png', 'color1': 'blue', 'color2': 'yellow', 'color3': 'red', 'condition': 'same', 'corrAns': 's', 'thisN': 6, 'thisTrialN': 2, 'thisRepN': 1}>
+46.0160 	DATA 	Keypress: d
+46.0204 	EXP 	test_shape_L: autoDraw = False
+46.0204 	EXP 	test_shape_C: autoDraw = False
+46.0204 	EXP 	test_shape_R: autoDraw = False
+46.0204 	EXP 	shape_L: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+46.0204 	EXP 	shape_L: image = 'star.png'
+46.0204 	EXP 	shape_C: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+46.0204 	EXP 	shape_C: image = 'wave.png'
+46.0204 	EXP 	shape_R: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+46.0204 	EXP 	shape_R: image = 'cross.png'
+46.0204 	EXP 	fixation: autoDraw = True
+46.1036 	EXP 	Device response: <KeyPress from None: t=46.00176040001679, value=d, duration=0.09518139995634556>
+46.5032 	EXP 	shape_L: autoDraw = True
+46.5032 	EXP 	shape_C: autoDraw = True
+46.5032 	EXP 	shape_R: autoDraw = True
+46.5197 	EXP 	fixation: autoDraw = False
+48.5037 	EXP 	shape_L: autoDraw = False
+48.5037 	EXP 	shape_C: autoDraw = False
+48.5037 	EXP 	shape_R: autoDraw = False
+48.5037 	EXP 	fixation: autoDraw = False
+48.5037 	EXP 	shape_L: autoDraw = False
+48.5037 	EXP 	shape_C: autoDraw = False
+48.5037 	EXP 	shape_R: autoDraw = False
+48.5037 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+48.5037 	EXP 	test_shape_L: image = 'star.png'
+48.5037 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+48.5037 	EXP 	test_shape_C: image = 'wave.png'
+48.5037 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+48.5037 	EXP 	test_shape_R: image = 'cross.png'
+49.5035 	INFO 	Keyboard events cleared
+49.5033 	EXP 	test_shape_L: autoDraw = True
+49.5033 	EXP 	test_shape_C: autoDraw = True
+49.5033 	EXP 	test_shape_R: autoDraw = True
+51.8367 	EXP 	Device response: <KeyPress from None: t=51.83443519996945, value=s, duration=None>
+51.8371 	EXP 	New trial (rep=1, index=3): <Trial 7 (3 in rep 1) data={'shape1': 'cross.png', 'shape2': 'star.png', 'shape3': 'wave.png', 'color1': 'red', 'color2': 'green', 'color3': 'blue', 'condition': 'different', 'corrAns': 'd', 'thisN': 7, 'thisTrialN': 3, 'thisRepN': 1}>
+51.8501 	DATA 	Keypress: s
+51.8531 	EXP 	test_shape_L: autoDraw = False
+51.8531 	EXP 	test_shape_C: autoDraw = False
+51.8531 	EXP 	test_shape_R: autoDraw = False
+51.8531 	EXP 	shape_L: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+51.8531 	EXP 	shape_L: image = 'cross.png'
+51.8531 	EXP 	shape_C: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+51.8531 	EXP 	shape_C: image = 'star.png'
+51.8531 	EXP 	shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+51.8531 	EXP 	shape_R: image = 'wave.png'
+51.8531 	EXP 	fixation: autoDraw = True
+51.9530 	EXP 	Device response: <KeyPress from None: t=51.83443519996945, value=s, duration=0.11757490003947169>
+52.3363 	EXP 	shape_L: autoDraw = True
+52.3363 	EXP 	shape_C: autoDraw = True
+52.3363 	EXP 	shape_R: autoDraw = True
+52.3531 	EXP 	fixation: autoDraw = False
+54.3367 	EXP 	shape_L: autoDraw = False
+54.3367 	EXP 	shape_C: autoDraw = False
+54.3367 	EXP 	shape_R: autoDraw = False
+54.3367 	EXP 	fixation: autoDraw = False
+54.3367 	EXP 	shape_L: autoDraw = False
+54.3367 	EXP 	shape_C: autoDraw = False
+54.3367 	EXP 	shape_R: autoDraw = False
+54.3367 	EXP 	test_shape_L: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+54.3367 	EXP 	test_shape_L: image = 'cross.png'
+54.3367 	EXP 	test_shape_C: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+54.3367 	EXP 	test_shape_C: image = 'star.png'
+54.3367 	EXP 	test_shape_R: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+54.3367 	EXP 	test_shape_R: image = 'wave.png'
+55.3365 	INFO 	Keyboard events cleared
+55.3364 	EXP 	test_shape_L: autoDraw = True
+55.3364 	EXP 	test_shape_C: autoDraw = True
+55.3364 	EXP 	test_shape_R: autoDraw = True
+58.0366 	EXP 	Device response: <KeyPress from None: t=58.028877899982035, value=s, duration=None>
+58.0376 	DATA 	Keypress: s
+58.0524 	EXP 	test_shape_L: autoDraw = False
+58.0524 	EXP 	test_shape_C: autoDraw = False
+58.0524 	EXP 	test_shape_R: autoDraw = False
+58.0526 	EXP 	vst_task_final: status = STOPPED
+58.0621 	INFO 	saved data to 'C:\\Users\\Varet\\OneDrive\\Desktop\\VSTMBT_Project\\data\\test2_vst_task_final_2026-07-20_20h21.54.390.csv'
+58.0629 	INFO 	saved data to C:\Users\Varet\OneDrive\Desktop\VSTMBT_Project\data\test2_vst_task_final_2026-07-20_20h21.54.390.psydat
+60.8252 	INFO 	Stopping keyboard key buffers.
