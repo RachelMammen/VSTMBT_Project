@@ -6,7 +6,7 @@ This is a personal project built using the PsychoPy framework. All core applicat
 
 ---
 
-## 📁 Repository Structure & Artifacts
+## Repository Structure & Artifacts
 
 All relevant files from the project workspace are categorized as follows on the root level:
 
